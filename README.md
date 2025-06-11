@@ -27,4 +27,28 @@ Melakukan tahap preparasi dan pembersihan data seperti menghapus duplikasi, mena
 * **OS, Random, Zipfile** – untuk utilitas sistem file dan operasi acak
 
 ## Dataset
+Dataset ini berasal dari sumber publik di Kaggle, namun telah kami kembangkan dan perbarui dengan beberapa penyesuaian berikut:
+- Jumlah tempat wisata ditingkatkan dari 437 menjadi 608, dengan data tambahan dikumpulkan secara manual.
+- Gambar tempat wisata diperoleh melalui proses web scraping dari berbagai sumber online.
+- Jumlah pengguna dalam data rating bertambah dari sekitar 300 menjadi 450 pengguna. Jumlah total rating meningkat dari 10.000 menjadi sekitar 16.000 penilaian, sebagian dihasilkan secara acak menggunakan Python untuk keperluan simulasi dan pengujian model rekomendasi.
+  
+**Data Rating**
+Berisi informasi penilaian dari pengguna terhadap tempat wisata.
+- User_Id: ID unik untuk setiap pengguna.
+- Place_Id: ID unik untuk tempat wisata.
+- Place_Ratings: Nilai penilaian (dalam bentuk angka) yang diberikan pengguna ke tempat.
+
+**Data Tempat Wisata**
+Berisi detail informasi tentang setiap tempat wisata.
+- 	Place_Id: ID unik untuk tempat wisata.
+- 	Place_Name: Nama dari tempat wisata.
+- 	Description: Deskripsi tentang tempat wisata.
+- 	Category: Kategori tempat wisata.
+- 	City: 	Nama kota tempat wisata tersebut berada.
+- 	Price: Harga tiket masuk ke tempat wisata tersebut.
+- 	Rating: Rata-rata penilaian dari pengguna.
+- 	Time_Minutes: Estimasi durasi kunjungan (menit). Banyak nilai yang kosong.
+- 	Coordinate: 	Gabungan dari Lat dan Long dalam satu string, kemungkinan formatnya "lat,long".
+- 	Unnamed: 11 & Unnamed: 12	: Kolom tidak jelas dan banyak nilai kosong, akan dihapus.
+- 	Link_Img : URL/link ke gambar tempat wisata, bisa digunakan untuk visualisasi atau tampilan di aplikasi.
 

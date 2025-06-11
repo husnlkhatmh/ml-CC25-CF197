@@ -18,7 +18,7 @@ Melakukan tahap preparasi dan pembersihan data seperti menghapus duplikasi, mena
   * `cosine_similarity` – untuk menghitung kemiripan antar teks
   * `train_test_split` – untuk membagi data pelatihan dan pengujian
 * **TensorFlow & Keras**
-  * Untuk membangun model Collaborative Filtering (`RecommenderNet`)
+  * Untuk membangun model Collaborative Filtering 
   * Menggunakan `Embedding`, `Dropout`, dan `Layer`
 * **Transformers (Hugging Face)**
   * `T5Tokenizer`, `T5ForConditionalGeneration` – untuk pemrosesan teks lanjutan

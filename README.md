@@ -52,3 +52,13 @@ Berisi detail informasi tentang setiap tempat wisata.
 - 	Unnamed: 11 & Unnamed: 12	: Kolom tidak jelas dan banyak nilai kosong, akan dihapus.
 - 	Link_Img : URL/link ke gambar tempat wisata, bisa digunakan untuk visualisasi atau tampilan di aplikasi.
 
+Hasil Content Based Filtering :
+![image](https://github.com/user-attachments/assets/d9e2ea1b-4a3a-4174-9cce-786cf34dd7ba)
+
+RMSE model Collaborative Filtering :
+
+![image](https://github.com/user-attachments/assets/8ee063cd-9fb6-4ba2-91eb-a1b8f117a347)
+
+![Gambar WhatsApp 2025-06-10 pukul 22 39 34_f85e5cdc](https://github.com/user-attachments/assets/3376ddbb-0e01-4f37-b308-31c115abd856)
+
+

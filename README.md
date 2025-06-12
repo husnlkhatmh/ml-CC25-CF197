@@ -1,4 +1,4 @@
-# WisataPas : 
+# WisataPas : Temukan Tempat Seru dengan Teknologi Rekomendasi Cerdas.
 
 ## Coding Camp Powered by DBS Foundation Capstone Project
 Capstone Team ID : **CC25-CF197**

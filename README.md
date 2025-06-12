@@ -27,6 +27,10 @@ Melakukan tahap preparasi dan pembersihan data seperti menghapus duplikasi, mena
 * **OS, Random, Zipfile** – untuk utilitas sistem file dan operasi acak
 
 ## Dataset
+
+Kaggle Dataset : https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination 
+Updated Dataset : https://drive.google.com/drive/folders/1-PQMwepQ9aug7EyAsWWJGzwDtrK6s8-Y 
+
 Dataset ini berasal dari sumber publik di Kaggle, namun telah kami kembangkan dan perbarui dengan beberapa penyesuaian berikut:
 - Jumlah tempat wisata ditingkatkan dari 437 menjadi 608, dengan data tambahan dikumpulkan secara manual.
 - Gambar tempat wisata diperoleh melalui proses web scraping dari berbagai sumber online.

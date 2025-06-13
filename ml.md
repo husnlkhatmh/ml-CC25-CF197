@@ -57,13 +57,31 @@ Berisi detail informasi tentang setiap tempat wisata.
 - 	Unnamed: 11 & Unnamed: 12	: Kolom tidak jelas dan banyak nilai kosong, akan dihapus.
 - 	Link_Img : URL/link ke gambar tempat wisata, bisa digunakan untuk visualisasi atau tampilan di aplikasi.
 
+Melakukan tahap preparasi dan pembersihan data seperti menghapus duplikasi, menangani data kosong, dan normalisasi teks. Proyek ini membangun sistem rekomendasi dengan dua pendekatan, yaitu Content-Based Filtering yang menggunakan cosine similarity pada vektorisasi TF-IDF pada fitur destinasi, serta Collaborative Filtering dengan model RecommenderNet berbasis TensorFlow Keras yang memanfaatkan embedding pengguna dan tempat wisata berdasarkan rating yang diberikan pengguna. Sebagai fitur tambahan, sistem menyajikan text ringkasan dari hasil rekomendasi menggunakan AI generatif sederhana untuk meningkatkan pengalaman pengguna.
+
+Content Based Filtering
+Tujuan: Rekomendasi berdasarkan kemiripan konten (nama, kategori, kota).
+Cara kerja: Menggabungkan fitur destinasi → diproses dengan TF-IDF & cosine similarity.
+Kontribusi : Efektif untuk pengguna baru tanpa perlu data interaksi dan metode ini juga digunakan untuk membuat pencarian destinasi yang fleksibel
+
+Collaborative Filtering
+Tujuan : rekomendasi dari interaksi pengguna lain yang memiliki preferensi serupa.
+Cara Kerja : menggunakan data rating yang diencode dan embedding untuk prediksi rating, dilatih dengan binary crossentropy dan dievaluasi dengan RMSE.
+Kontribusi : Hasilkan rekomendasi personal berdasarkan histori interaksi pengguna.
+
+Generative Text
+Tujuan: Menghasilkan ringkasan natural dan persuasif dari destinasi wisata yang direkomendasikan.
+Cara kerja: Fine-tuning model T5-small dengan data destinasi wisata yang sudah diaugmentasi.
+Kontribusi: Fitur tambahan pada sistem WisataPas untuk menyajikan ringkasan teks yang menarik dan mudah dipahami.
+
 Hasil Content Based Filtering :
 ![image](https://github.com/user-attachments/assets/d9e2ea1b-4a3a-4174-9cce-786cf34dd7ba)
 
 RMSE model Collaborative Filtering :
 
-![image](https://github.com/user-attachments/assets/8ee063cd-9fb6-4ba2-91eb-a1b8f117a347)
+![image](https://github.com/user-attachments/assets/14d8f583-64f8-4c18-8213-3fa36015fc62)
 
-![Gambar WhatsApp 2025-06-10 pukul 22 39 34_f85e5cdc](https://github.com/user-attachments/assets/3376ddbb-0e01-4f37-b308-31c115abd856)
+![image](https://github.com/user-attachments/assets/5c579f12-635a-40e4-8e05-a70e9b6e87e1)
+
 
 

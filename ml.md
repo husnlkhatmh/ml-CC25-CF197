@@ -33,9 +33,9 @@ Kaggle Dataset : https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-dest
 Updated Dataset : https://drive.google.com/drive/folders/1-PQMwepQ9aug7EyAsWWJGzwDtrK6s8-Y 
 
 Dataset ini berasal dari sumber publik di Kaggle, namun telah kami kembangkan dan perbarui dengan beberapa penyesuaian berikut:
-- Jumlah tempat wisata ditingkatkan dari 437 menjadi 608, dengan data tambahan dikumpulkan secara manual.
+- Jumlah tempat wisata ditingkatkan dari 437 menjadi 608, dengan data tambahan dikumpulkan secara untuk memperkaya variasi tempat dan tempat pada data rating.
 - Gambar tempat wisata diperoleh melalui proses web scraping dari berbagai sumber online.
-- Jumlah pengguna dalam data rating bertambah dari sekitar 300 menjadi 450 pengguna. Jumlah total rating meningkat dari 10.000 menjadi sekitar 16.000 penilaian, sebagian dihasilkan secara acak menggunakan Python untuk keperluan simulasi dan pengujian model rekomendasi.
+- Jumlah pengguna dalam data rating bertambah dari sekitar 300 menjadi 450 pengguna. Jumlah total rating meningkat dari 10.000 menjadi sekitar 16.299 penilaian, dihasilkan secara acak menggunakan Python untuk memperbaiki performa model rekomendasi yang sebelumnya kurang optimal.
   
 **Data Rating**
 Berisi informasi penilaian dari pengguna terhadap tempat wisata.
